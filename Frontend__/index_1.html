@@ -1,0 +1,53 @@
+<!-- frontend/index.html -->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Occams Assistant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        #chat {
+            border: 1px solid #ddd;
+            padding: 10px;
+            height: 400px;
+            overflow: auto;
+        }
+
+        .msg {
+            margin: 8px 0;
+        }
+
+        .bot {
+            color: #111;
+        }
+
+        .user {
+            color: #0366d6;
+            text-align: right;
+        }
+
+        #input {
+            width: 100%;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Occams Advisory — Assistant</h2>
+
+    <div id="chat"></div>
+
+    <input id="input" placeholder="Say something..." />
+
+    <script src="app.js"></script>
+</body>
+
+</html>
